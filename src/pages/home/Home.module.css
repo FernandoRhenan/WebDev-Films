@@ -1,0 +1,39 @@
+.homeContainer span {
+  width: 100%;
+  text-align: center;
+
+}
+
+.homeContainer p {
+  color: grey;
+  font-size: 40px;
+}
+
+.cards {
+  padding-inline-start: 0px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 230px);
+  gap: 100px;
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+  transition: 500ms;
+}
+
+.card img {
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 0 10px black;
+}
+
+.card:hover{
+  transform: scale(1.02);
+}
+
+.card span{
+  color: grey;
+  font-size: 1.4rem;
+}

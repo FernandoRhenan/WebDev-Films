@@ -1,0 +1,28 @@
+.navContainer {
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   box-shadow: 0 0 10px #181818 inset ;
+    background-image: linear-gradient(to bottom, #383838, #555555);
+}
+
+.navContainer img {
+    width: 190px;
+    height: 95px;
+}
+
+.navContainer nav {
+    font-size: 23px;
+}
+
+.navContainer ul {
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #181818;
+  }

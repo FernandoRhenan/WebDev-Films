@@ -1,0 +1,127 @@
+.moreContainer {
+    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.filmProfile {
+    margin: auto;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    color: #b4b4b4;
+    background-color: #353972;
+    padding: 3px 6px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+}
+
+.filmProfile img {
+    min-width: 300px;
+    min-height: 450px;
+    max-width: 300px;
+    max-height: 450px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.imgArea a {
+    margin-left: 2px;
+    color: white;
+    position: absolute;
+    text-shadow: 0 0 12px black;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.imgArea {
+    position: relative;
+}
+
+.overview::-webkit-scrollbar {
+    width: 15px;
+}
+
+.overview::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.150);
+    border-radius: 2px;
+}
+
+.overview::-webkit-scrollbar-thumb {
+    background-color: #aaaaaa;
+    border-radius: 2px;
+}
+
+.overview {
+    max-height: 80px;
+    overflow: auto;
+}
+
+.details h1 {
+    color: white;
+}
+
+.details {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 400px;
+    height: 450px;
+    max-width: 400px;
+    background-image: linear-gradient(to left bottom, #332953, #414768 ,#18171f);
+    padding: 0 28px;
+}
+
+.details h1 {
+    margin-bottom: 0;
+}
+
+.infos ul {
+    color: #eeeeee;
+    padding: 0;
+    display: flex;
+    margin: 10px 0;
+    gap: 5px;
+}
+
+.infos span,
+.overview p {
+    color: #aaaaaa;
+}
+
+.languages span {
+    display: block;
+}
+
+.languages ul {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.duration,
+.date {
+    margin-top: 20px;
+}
+
+
+.companies {
+    width: 100%;
+    margin: auto;
+}
+
+.companies ul {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.companies img {
+    width: 120px;
+}
