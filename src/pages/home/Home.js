@@ -21,7 +21,8 @@ const Home = () => {
         <div className={styles.homeContainer}>
             <NavBar />
             <span>
-                <p>Veja aqui<br />os principais filmes<br />do momento</p>
+                <h1>
+Look the top movies of the moment here</h1>
             </span>
 
             <div>

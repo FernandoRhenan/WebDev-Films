@@ -1,0 +1,25 @@
+.aboutContainer {
+    width: 600px;
+    margin: 100px auto;
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.aboutContainer a {
+    color: #acacac;
+    text-decoration: underline;
+}
+
+.aboutContainer p::first-letter {
+    content: '';
+    padding-left: 5px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .aboutContainer {
+        width: 90%;
+    }
+
+}

@@ -1,10 +1,10 @@
 .navContainer {
-    height: 110px;
+    height: 200px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-   box-shadow: 0 0 10px #181818 inset ;
+   box-shadow: 0 0 10px #181818;
     background-image: linear-gradient(to bottom, #383838, #555555);
 }
 
@@ -25,4 +25,19 @@
 a{
     text-decoration: none;
     color: #181818;
+  }
+
+
+  @media screen and (max-width: 550px) {
+
+    .navContainer {
+        height: 250px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navContainer ul {
+     padding: 0;
+    }
+    
   }

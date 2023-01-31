@@ -1,16 +1,21 @@
+.homeContainer{
+  padding-bottom: 50px;
+}
+
 .homeContainer span {
   width: 100%;
   text-align: center;
-
 }
 
-.homeContainer p {
+.homeContainer h1 {
+  margin: 50px 0;
   color: grey;
   font-size: 40px;
 }
 
 .cards {
   padding-inline-start: 0px;
+  margin: 40px;
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, 230px);
@@ -36,4 +41,13 @@
 .card span{
   color: grey;
   font-size: 1.4rem;
+}
+
+
+@media screen and (max-width: 550px) {
+  .homeContainer h1 {
+    margin: 50px 0;
+    padding: 0 10px;
+    font-size: 35px;
+  }
 }

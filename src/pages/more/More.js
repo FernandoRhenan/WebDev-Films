@@ -45,7 +45,7 @@ const More = () => {
           </div>
 
           <div className={styles.infos}>
-            <div>
+            <div className={styles.tags}>
               <ul>
                 {genres && genres.map((item) => (
                   <li key={item.id}>#{item.name}</li>

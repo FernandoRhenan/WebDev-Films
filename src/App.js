@@ -6,6 +6,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './pages/home/Home'
 import About from './pages/about/About'
 import More from './pages/more/More';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 
         <Route path='/movie/:id' element={<More />} />
       </Routes>
+      <Footer />
       </BrowserRouter>
   
     </div>

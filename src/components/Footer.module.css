@@ -1,0 +1,29 @@
+.footerContainer {
+    height: 300px;
+    box-shadow: 0 0 10px black;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-items: center;
+
+}
+
+.footerContainer img {
+    width: 200px;
+    height: 100px;
+}
+
+.footerContainer span {
+    color: grey;
+}
+
+@media screen and (max-width: 550px) {
+
+    .footerContainer {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+}
